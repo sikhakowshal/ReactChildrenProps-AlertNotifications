@@ -1,0 +1,97 @@
+.notification-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .notification-item {
+    width: 45%;
+  }
+}
+
+.details-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.icon-container {
+  align-self: flex-start;
+  margin-right: 20px;
+}
+
+.icon {
+  height: 35px;
+  width: 35px;
+}
+
+.success-icon {
+  color: #2dca73;
+}
+
+.error-icon {
+  color: #ff0b37;
+}
+
+.warning-icon {
+  color: #ffb800;
+}
+
+.info-icon {
+  color: #0f81e0;
+}
+
+.content {
+  align-self: flex-start;
+  flex-grow: 1;
+}
+
+.title {
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin: 0;
+}
+
+.SUCCESS {
+  color: #2dca73;
+}
+
+.ERROR {
+  color: #ff0b37;
+}
+
+.WARNING {
+  color: #ffb800;
+}
+
+.INFO {
+  color: #0f81e0;
+}
+
+.description {
+  color: #475569;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+  }
+}
+
+.close-icon {
+  color: #0f172a;
+  height: 25px;
+  width: 25px;
+}
